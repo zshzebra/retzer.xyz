@@ -56,6 +56,10 @@ menu:
           name: Search
           url: /search
           weight: 10
+        - identifier: posts
+          name: Posts
+          url: /posts
+          weight: 20
 
 markup:
     highlight:
