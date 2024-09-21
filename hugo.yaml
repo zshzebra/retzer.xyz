@@ -25,11 +25,24 @@ params:
         imageUrl: https://avatars.githubusercontent.com/u/78647110?v=4
         imageTitle: PyScripter99 Profile Picture
 
+        buttons:
+            - name: Posts
+              url: /posts
+
     socialIcons:
         - name: github
           url: https://github.com/pyscripter99
         - name: gitea
           url: https://git.retzer.xyz/pyscripter99
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+        keys: ["title", "permalink", "summary", "content"]
 
 outputs:
     home:
@@ -43,3 +56,7 @@ menu:
           name: Search
           url: /search
           weight: 10
+
+markup:
+    highlight:
+        style: catppuccin-mocha
