@@ -58,5 +58,7 @@ class Team:
     goals_against = 0
     goals_difference = 0
 
+# TODO: Add logic to scrape data
+
 
 ```
