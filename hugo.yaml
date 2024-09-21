@@ -1,0 +1,45 @@
+baseURL: https://retzer.xyz
+languageCode: en-us
+title: PyScripter99
+theme: PaperMod
+
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    title: PyScripter99
+    description: My simple blog
+    author: pyScripter99
+    keywords: [Blog, Portfolio]
+
+    DateFormat: "January 2, 2006"
+
+    profileMode:
+        enabled: true
+        subtitle: FOSS Enthusiast & Open Source Developer
+        imageUrl: https://avatars.githubusercontent.com/u/78647110?v=4
+        imageTitle: PyScripter99 Profile Picture
+
+    socialIcons:
+        - name: github
+          url: https://github.com/pyscripter99
+        - name: gitea
+          url: https://git.retzer.xyz/pyscripter99
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+menu:
+    main:
+        - identifier: search
+          name: Search
+          url: /search
+          weight: 10
