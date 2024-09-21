@@ -1,13 +1,13 @@
 ---
 title: "SPTI: A New Way to Scrape"
-date: 2020-09-15T11:30:03+00:00
+date: 2024-09-21T05:30:00.000Z
 # weight: 1
 # aliases: ["/first"]
 tags: ["Web Scraping"]
 author: "pyscripter99"
 showToc: true
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: false
 description: "Learn how scrape, parse, transform and insert benefit over traditional scraping"
