@@ -1,6 +1,6 @@
 baseURL: https://retzer.xyz
 languageCode: en-us
-title: PyScripter99
+title: ZshZebra
 theme: PaperMod
 
 buildDrafts: false
@@ -12,16 +12,16 @@ minify:
     minifyOutput: true
 
 params:
-    title: PyScripter99
-    description: My simple blog
-    author: pyScripter99
+    title: ZshZebra
+    description: Personal website of ZshZebra
+    author: zshzebra
     keywords: [Blog, Portfolio]
 
     DateFormat: "January 2, 2006"
 
     profileMode:
         enabled: true
-        subtitle: FOSS Enthusiast & Open Source Developer
+        subtitle: FOSS Enthusiast & Mechatronics Hobbyist
         imageUrl: https://avatars.githubusercontent.com/u/78647110?v=4
         imageTitle: PyScripter99 Profile Picture
 
@@ -31,9 +31,7 @@ params:
 
     socialIcons:
         - name: github
-          url: https://github.com/pyscripter99
-        - name: gitea
-          url: https://git.retzer.xyz/pyscripter99
+          url: https://github.com/zshebra
     fuseOpts:
         isCaseSensitive: false
         shouldSort: true
@@ -43,6 +41,7 @@ params:
         minMatchCharLength: 0
         limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
         keys: ["title", "permalink", "summary", "content"]
+    social: true
 
 outputs:
     home:
@@ -64,3 +63,9 @@ menu:
 markup:
     highlight:
         style: catppuccin-mocha
+    goldmark:
+        renderer:
+            unsafe: true
+
+enableEmoji: true
+enableInlineShortcodes: true
