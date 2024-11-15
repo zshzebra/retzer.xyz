@@ -12,7 +12,7 @@ I'm ZshZebra, a hobbyist mechatronics engineer and open-source enthusiast.
 
 ## About Me
 
-A debatibly active [GitHub](https://github.com/zshebra) user, with over 70 repositories and 700 commits.
+A debatibly active [GitHub](https://github.com/zshzebra) user, with over 70 repositories and 700 commits.
 
 ### :briefcase: My Skills
 
